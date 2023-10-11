@@ -32,7 +32,8 @@ public class empleadoPorHoras extends modeloEmpleado {
     }
    @Override
    public double  calcularSalario(){
-     this.salarioBase=(this.horasTrabajadas*this.tarifaPorHora)+salarioBase;
-      return salarioBase;
+       double salarioTotal;
+     salarioTotal=(this.horasTrabajadas*this.tarifaPorHora)+salarioBase;
+      return salarioTotal;
    }
 }

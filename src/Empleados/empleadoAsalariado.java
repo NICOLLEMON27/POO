@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Empleados;
 
 
@@ -48,7 +45,8 @@ public class empleadoAsalariado extends modeloEmpleado {
      
     @Override
    public double  calcularSalario(){
-    this.salarioBase=salarioBase-this.deducciones;
-    return salarioBase;
+   double salarioTotal;
+   salarioTotal =salarioBase-this.deducciones;
+    return salarioTotal;
     }
 }

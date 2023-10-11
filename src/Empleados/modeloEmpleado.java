@@ -29,10 +29,7 @@ public abstract class modeloEmpleado {
     public double getSalarioBase() {
         return salarioBase;
     }
-  public double calcularSalario(){
- 
-  return salarioBase;
-  }
+ public abstract double calcularSalario();
 
 
 }
